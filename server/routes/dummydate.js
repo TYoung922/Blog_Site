@@ -17,6 +17,6 @@ function insertPostData() {
   ]);
 }
 
-insertPostData();
+// insertPostData();
 
 module.exports = insertPostData;

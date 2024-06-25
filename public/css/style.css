@@ -57,11 +57,13 @@ textarea {
   text-decoration: none;
   margin: 4px 2px;
   cursor: pointer;
+  /* float: right; */
 }
 
 .btn-delete {
   padding: 10px 16px;
   background-color: var(--red);
+  /* float: right; */
 }
 
 img {
@@ -330,6 +332,11 @@ img {
   display: inline-block;
 }
 
+.admin-post-controls {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .admin-post-controls .btn {
   display: inline-block;
   background-color: var(--black);
@@ -339,10 +346,19 @@ img {
   font-size: 0.8rem;
   padding: 4px 8px;
   line-height: 2;
+  direction: rtl;
 }
+
+/* .admin-post-controls {
+  float: right;
+} */
 
 .admin-posts li {
   display: flex;
-  justify-content: space-between;
   padding: 10px 0;
+}
+
+.items {
+  background-color: #e4e4e4;
+  border: 5px solid #faf5ee;
 }
